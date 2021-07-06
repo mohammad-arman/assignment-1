@@ -1,0 +1,233 @@
+/*Global Css*/
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    margin: 0;
+    line-height: 1.8em;
+    font-family: "Poppins",sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a span label{
+    display: inline-block;
+}
+.wrapper{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-3{
+    flex-basis: 24.66%;
+    width: 24.66%;
+}
+.col-4{
+    flex-basis: 30%;
+    width: 30%;
+}
+.col-6{
+    flex-basis: 49.2%;
+    width: 49.2%;
+}
+.col-9{
+    flex-basis: 74.2%;
+    width: 74.2%;
+}
+
+/*Header Css*/
+.header-area{
+    background-color: rgb(224, 224, 224);
+    padding: 20px 0;
+}
+.header-area .logo a{
+  text-decoration: none;
+  color: #6a6565;
+  font-family: "Righteous",sans-serif;
+  font-size: 1.5rem;
+}
+.header-area .logo a span{
+    color: #0ca684;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.header-area .navigation ul{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.header-area .navigation ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header-area .navigation ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #6a6565;
+    padding: 0 15px;
+    font-size: 1.1rem;
+}
+.header-area .navigation ul li a.active{
+    color: #0ca684;
+}
+
+
+/*Welcome Css*/
+.welcome-area{
+    background-color: rgb(224, 224, 224);
+}
+.welcome-area .single-wlcm-ctn{
+    margin-top: 100px;
+}
+.welcome-area .single-wlcm-ctn h1{
+    font-family: "Righteous",sans-serif;
+    font-size: 3rem;
+    color:rgb(66, 66, 66);
+    line-height: 3.2rem;
+}
+.welcome-area .single-wlcm-ctn h1 span{
+    color: #0ca684;
+}
+.welcome-area .single-wlcm-ctn p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.welcome-area .single-wlcm-ctn a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    background: linear-gradient(45deg, lightsalmon, rgb(138, 151, 17));
+}
+.welcome-area .single-wlcm-img img{
+    display: block;
+}
+
+/*About Css*/
+.about-area{
+    background-repeat: no-repeat;
+}
+.about-area .single-about-ctn{
+    padding-top: 160px;
+}
+.about-area .single-about-ctn h2{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #6a6565; 
+}
+.about-area .single-about-ctn p{
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+}
+.about-area .single-about-ctn a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    background: linear-gradient(45deg, lightsalmon, rgb(138, 151, 17));
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    padding: 15px 20px;
+}
+.about-area .single-about-img img{
+    display: block;
+}
+
+
+
+/*Recipe Css*/
+.recipe-area{
+    padding: 80px 0;
+}
+.recipe-area .heading{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.recipe-area .heading h2{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #6a6565;
+}
+.recipe-area .single-recipe{
+    box-shadow: 5px 7px 40px grey;
+    padding: 20px;
+    border-radius: 15px;
+}
+.recipe-area .single-recipe .thumbnail img{
+    border-radius: 15px;
+}
+.recipe-area .single-recipe .ctn h3{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+/*Reservation Css*/
+.reservation-area{
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+}
+.reservation-area .heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.reservation-area .heading h2{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    color: #6a6565;
+}
+.reservation-area .reservation{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.reservation-area .reservation{
+    display: flex;
+    flex-wrap: wrap;
+}
+.reservation-area .reservation input{
+    width: 48%;
+    margin: 10px 5px;
+    padding: 15px 10px;
+}
+.reservation-area .reservation select{
+    width: 48%;
+    margin: 10px 5px;
+}
+.reservation-area .reservation .reserbtn{
+    padding: 10px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+/*Footer Css*/
+footer{
+    background-color: #6a6565;
+    padding: 20px 0;
+}
+footer .footer-ctn{
+    text-align: center;
+}
+footer .footer-ctn h3{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+footer .footer-ctn h3 span{
+    color: #0ca684;
+}
+footer .footer-ctn p{
+    color: #ffffff;
+    margin-top: 0;
+}  
